@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import About from "./Components/About";
 import Projects from "./Components/Projects";
+import Landing from "./Components/Landing";
 
 function App() {
   return (
