@@ -1,0 +1,22 @@
+
+
+#landing-content {
+
+}
+
+#landing-img {
+    display:flex;
+}
+
+#landing-photo {
+    margin:auto;
+    max-width: 30%;
+}
+
+#landing-text {
+    display:flex;
+}
+
+.center {
+    margin:auto;
+}
