@@ -4,9 +4,11 @@ import EmbedVideo from "./EmbedVideo";
 
 function About() {
     return (
-        <div>
+        <div id="about-page-container">
             <h1>About: The History of Cool Beans</h1>
-            <EmbedVideo embedId="PyHPSrk18d4" />
+            <div id="video-container">
+                <EmbedVideo embedId="PyHPSrk18d4" />
+            </div>
         </div>
     )
 };

@@ -1,4 +1,4 @@
-
+/* ----------------- Landing Page -----------------  */
 
 #landing-content {
 
@@ -22,6 +22,16 @@
     margin:auto;
 }
 
+/* ----------------- About Page -----------------  */
+
+#about-page-container {
+   
+}
+
+#video-container {
+ max-width: 800px;
+ margin: auto;
+}
 
 .video-responsive {
     overflow: hidden;
@@ -37,3 +47,18 @@
     width: 100%;
     position: absolute;
   }
+
+
+  /* ----------------- Contact Page -----------------  */
+
+
+
+
+
+
+  /* ----------------- Project Page -----------------  */
+
+
+
+
+  /* ----------------- Experience Page -----------------  */
