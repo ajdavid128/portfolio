@@ -2,23 +2,23 @@
     "projects": [
         {
             "id": 1,
-            "title": "Project",
+            "title": "Pokemon Party Creator",
             "images":[],
-            "description": "",
+            "description": "This single-page web application was designed by Aaron David, Nick Phelps and Jonny Tilahun for their Phase 1 group project at Flatiron School during the 10-10-22 East Cohort. The focus of this project was to use a GET .fetch() request on a public API. For the project we decided to use the Poké API. This API did not require an Authentication Key and had a significant amount of End Points to pursue. We chose the Poké API as a fun homage to our childhood hobbies. The webpage was built from the ground up using HMTL, JavaScript and CSS.",
             "features": "",
-            "technology": "",
-            "github": "",
+            "technology": "Vanilla JavaScript | HTML | CSS",
+            "github": "https://github.com/ajdavid128/phase-1-group-project-pokemon-party-creator",
             "demo": "",
-            "url": ""
+            "url": "https://ajdavid128.github.io/phase-1-group-project-pokemon-party-creator/"
         },
         {
             "id": 2,
-            "title": "Project",
+            "title": "Divr",
             "images":[],
-            "description": "",
-            "features": "",
-            "technology": "",
-            "github": "",
+            "description": "This single-page web application was designed by Aaron David, Paige Tetzlaff and Julia Jones for their Phase 2 group project at Flatiron School during the 10-10-22 East Cohort. The content of our application is based around the aquatic activity of scuba diving. We created a library of diving sites that included information about specific locations and countries that offer popular diving experiences. The premise of our site was to provide enthusiast a way to learn more about divng locations and to request more information about other possible spots.",
+            "features": "The focus of this project was to use build a React single page application from scratch. Our project includes search functionality, utilizing a client-side routing technique via React Router and a controlled-form with the ability to complete a POST fetch request to our custom RESTful API running on a JSON-server.",
+            "technology": "JavaScript | React | HTML | CSS",
+            "github": "https://github.com/ajdavid128/phase-2-group-project-diving-location-app",
             "demo": "",
             "url": ""
         },
