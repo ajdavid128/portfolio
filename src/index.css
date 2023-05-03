@@ -44,8 +44,6 @@
  margin: auto;
 }
 
-
-
 .video-responsive {
     overflow: hidden;
     padding-bottom: 56.25%;
@@ -71,7 +69,9 @@
 
   /* ----------------- Project Page -----------------  */
 
-
+    .project-images-size {
+        max-width: 500px;
+    }
 
 
   /* ----------------- Experience Page -----------------  */
