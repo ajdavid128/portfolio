@@ -28,10 +28,23 @@
    
 }
 
+#about-text-photo {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#about-photo {
+ max-width: 400px;
+ margin-right: 20px;    
+}
+
 #video-container {
  max-width: 800px;
  margin: auto;
 }
+
+
 
 .video-responsive {
     overflow: hidden;
