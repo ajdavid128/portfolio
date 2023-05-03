@@ -29,7 +29,11 @@
 }
 
 #about-text-photo {
-    display: flex;
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    /* grid-template-areas: ; */
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -71,6 +75,10 @@
 
     .project-images-size {
         max-width: 500px;
+    }
+
+    .project-details-container {
+       display:grid;
     }
 
 

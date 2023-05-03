@@ -8,7 +8,7 @@ function Project1() {
         <div>
             <img className="project-images-size" src={landing_page} alt="flatstocker website landing page" />
             <h1>FlatStocker</h1>
-            <div>
+            <div classname="project-details-container">
                 <div>
                     <h3>Description</h3>
                     <p>FlatStocker is a full-stack inventory management web application inspired by my past profession as a Production Manager at a textile manufacturing company. Created as my capston project during the last phase of Flatiron School's Software Engineering Bootcamp.</p>
