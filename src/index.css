@@ -111,14 +111,31 @@ position: absolute;
 
 .description-container {
     background-color: aquamarine;
+    display: grid;
+    grid-template-rows: 50px 200px;
 }
 
 .features-container {
     background-color: blanchedalmond;
+    display: grid;
+    grid-template-rows: 50px 250px;
 }
 
 .technology-container {
     background-color: darksalmon;
+    display: grid;
+    grid-template-rows: 50px 250px;
+}
+
+.project-details-title {
+    margin: auto;
+    /* margin-left: 25%; */
+    
+}
+
+.project-details-content {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .project-links{

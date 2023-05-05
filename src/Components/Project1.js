@@ -12,12 +12,12 @@ function Project1() {
             </div>
             <div className="project-details-container">
                 <div className="description-container">
-                    <h3>Description</h3>
-                    <p>FlatStocker is a full-stack inventory management web application inspired by my past profession as a Production Manager at a textile manufacturing company. Created as my capston project during the last phase of Flatiron School's Software Engineering Bootcamp.</p>
+                    <h3 className="project-details-title">Description</h3>
+                    <p className="project-details-content">FlatStocker is a full-stack inventory management web application inspired by my past profession as a Production Manager at a textile manufacturing company. Created as my capston project during the last phase of Flatiron School's Software Engineering Bootcamp.</p>
                 </div>
                 <div className="features-container">
-                    <h3>Features</h3>
-                    <ul>
+                    <h3 className="project-details-title">Features</h3>
+                    <ul className="project-details-content">
                         <li> Create an account, log in/out, and update or delete account</li>
                         <li>Add, update and delete items in inventory</li>
                         <li>Add retailer information and associate items within inventory to specific retailers</li>
@@ -27,8 +27,8 @@ function Project1() {
                     </ul>
                 </div>
                 <div className="technology-container">
-                    <h3>Technology</h3>
-                    <p>JavaScript | React | Ruby on Rails | PostgreSQL | Semantic UI | React Router</p>
+                    <h3 className="project-details-title">Technology</h3>
+                    <p className="project-details-content">JavaScript | React | Ruby on Rails | PostgreSQL | Semantic UI | React Router</p>
                 </div>
             </div>
             <div className="project-links">
