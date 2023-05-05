@@ -87,7 +87,25 @@
     }
 
     .project-details-container {
-       display:grid;
+        display: grid;
+        height: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        /* grid-template-areas: ; */
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: blue;
+    }
+
+    .project-links{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        max-width: fit-content;
+        margin: auto;
+        /* margin-left: 25%;
+        margin-right: 25%; */
+        background-color: grey;
     }
 
 

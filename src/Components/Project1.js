@@ -29,7 +29,7 @@ function Project1() {
                     <p>JavaScript | React | Ruby on Rails | PostgreSQL | Semantic UI | React Router</p>
                 </div>
             </div>
-            <div>
+            <div className="project-links">
                 <div onClick="">
                     <img src="" alt="" />
                     <h6>GitHub</h6>
