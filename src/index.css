@@ -84,6 +84,7 @@ position: absolute;
 
 .project-image-title-container {
     display: grid;
+    /* grid-template-rows: 500px 50px; */
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 20px;
@@ -95,8 +96,19 @@ position: absolute;
     margin: auto;
 } */
 
+.project-arrow-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-icon {
+    max-width: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 .project-title {
-    margin: auto;
+    /* margin: auto; */
 }
 
 .project-details-container {

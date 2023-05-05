@@ -1,9 +1,11 @@
 import Project1Slideshow from "./Project1Slideshow";
 
-import landing_page from "../Media/flatstocker/landing_page.png";
+// import landing_page from "../Media/flatstocker/landing_page.png";
 import github from "../Media/icons/github.png";
 import link from "../Media/icons/link.png";
-import youtube from "../Media/icons/youtube.png"
+import youtube from "../Media/icons/youtube.png";
+import left_arrow from "../Media/icons/left_arrow.png";
+import right_arrow from "../Media/icons/right_arrow.png";
 
 
 function Project1() {
@@ -14,7 +16,11 @@ function Project1() {
             <div className="project-image-title-container">
                 <Project1Slideshow />
                 {/* <img className="project-images-size" src={landing_page} alt="flatstocker website landing page" /> */}
-                <h1 className="project-title">FlatStocker</h1>
+                <div className="project-arrow-title-container">
+                    <img className="arrow-icon" src={left_arrow} alt="left arrow" />
+                    <h1 className="project-title">FlatStocker</h1>
+                    <img className="arrow-icon" src={right_arrow} alt="right arrow" />
+                </div>
             </div>
             <div className="project-details-container">
                 <div className="description-container">
