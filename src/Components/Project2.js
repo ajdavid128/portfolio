@@ -1,4 +1,4 @@
-import Project1Slideshow from "./Project1Slideshow";
+import Project2Slideshow from "./Project1Slideshow";
 
 // import landing_page from "../Media/flatstocker/landing_page.png";
 import github from "../Media/icons/github.png";
@@ -8,13 +8,13 @@ import left_arrow from "../Media/icons/left_arrow.png";
 import right_arrow from "../Media/icons/right_arrow.png";
 
 
-function Project1() {
+function Project2() {
 
 
     return (
         <div>
             <div className="project-image-title-container">
-                <Project1Slideshow />
+                <Project2Slideshow />
                 {/* <img className="project-images-size" src={landing_page} alt="flatstocker website landing page" /> */}
                 <div className="project-arrow-title-container">
                     <img onClick="" className="arrow-icon" src={left_arrow} alt="left arrow" />
@@ -67,4 +67,4 @@ function Project1() {
     )
 }
 
-export default Project1;
+export default Project2;
