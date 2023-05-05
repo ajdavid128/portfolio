@@ -24,7 +24,7 @@ setTimeout(() => {
 return(
     <div id="slideshow-container">
         <div id="slideshow-image-container">
-            <img className="slideshow-image" src={images[nextIndex]} alt="flatstocker" ></img>
+            <img className="slideshow-image" src={images[nextIndex]} alt="dough app" ></img>
         </div>
     </div>
 )

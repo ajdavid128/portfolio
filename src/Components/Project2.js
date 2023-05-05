@@ -18,24 +18,23 @@ function Project2() {
                 {/* <img className="project-images-size" src={landing_page} alt="flatstocker website landing page" /> */}
                 <div className="project-arrow-title-container">
                     <img onClick="" className="arrow-icon" src={left_arrow} alt="left arrow" />
-                    <h1 className="project-title">FlatStocker</h1>
+                    <h1 className="project-title">Dough</h1>
                     <img onClick="" className="arrow-icon" src={right_arrow} alt="right arrow" />
                 </div>
             </div>
             <div className="project-details-container">
                 <div className="description-container">
                     <h3 className="project-details-title">Description</h3>
-                    <p className="project-details-content">FlatStocker is a full-stack inventory management web application inspired by my past profession as a Production Manager at a textile manufacturing company. Created as my capston project during the last phase of Flatiron School's Software Engineering Bootcamp.</p>
+                    <p className="project-details-content">Dough is a budgeting app that helps you keep track of your expenses month to month. It is based off of the 50/30/20 budgeting Model. That being 50 for mandatory expenses like bills and insurance, the 30 for entertainment, travel and fun and the 20 for paying down debts and saving money. Dough is a React and Ruby on Rails Single-Page Web Application designed by Aaron David, Keila Lopez and Lindsay Taylor.</p>
                 </div>
                 <div className="features-container">
                     <h3 className="project-details-title">Features</h3>
                     <ul className="project-details-content">
                         <li> Create an account, log in/out, and update or delete account</li>
-                        <li>Add, update and delete items in inventory</li>
-                        <li>Add retailer information and associate items within inventory to specific retailers</li>
-                        <li>Monitor inventory levels with ease by color coordinated table </li>
-                        <li>Warnings delivered to user dashboard for items with low stock levels</li>
-                        <li>Searchable inventory listings</li>
+                        <li>Add, update and delete expenses and categories</li>
+                        <li>Associate expenses with specific categories</li>
+                        <li>Monitor current expenses compared to monthly income </li>
+                        <li>Quick view of recent expenses by way of the dashboard</li>
                     </ul>
                 </div>
                 <div className="technology-container">
