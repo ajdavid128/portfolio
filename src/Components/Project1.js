@@ -1,3 +1,5 @@
+import Project1Slideshow from "./Project1Slideshow";
+
 import landing_page from "../Media/flatstocker/landing_page.png";
 import github from "../Media/icons/github.png";
 import link from "../Media/icons/link.png";
@@ -9,8 +11,9 @@ function Project1() {
 
     return (
         <div>
-            <div className="project-image-title">
-                <img className="project-images-size" src={landing_page} alt="flatstocker website landing page" />
+            <div className="project-image-title-container">
+                <Project1Slideshow />
+                {/* <img className="project-images-size" src={landing_page} alt="flatstocker website landing page" /> */}
                 <h1 className="project-title">FlatStocker</h1>
             </div>
             <div className="project-details-container">
@@ -35,18 +38,24 @@ function Project1() {
                 </div>
             </div>
             <div className="project-links-container">
-                <div className="project-links" onClick="">
-                    <img className="project-icons" src={github} alt="github logo" />
-                    <h6 className="project-link-text">GitHub</h6>
-                </div>
-                <div className="project-links" onClick="">
-                    <img className="project-icons" src={youtube} alt="youtube logo" />
-                    <h6 className="project-link-text">Demo</h6>
-                </div>
-                <div className="project-links" onClick="">
-                    <img className="project-icons" src={link} alt="chainlink icon" />
-                    <h6 className="project-link-text">Site</h6>
-                </div>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                    <div className="project-links" onClick="">
+                        <img className="project-icons" src={github} alt="github logo" />
+                        <h6 className="project-link-text">GitHub</h6>
+                    </div>
+                </a>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                    <div className="project-links" onClick="">
+                        <img className="project-icons" src={youtube} alt="youtube logo" />
+                        <h6 className="project-link-text">Demo</h6>
+                    </div>
+                </a>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                    <div className="project-links" onClick="">
+                        <img className="project-icons" src={link} alt="chainlink icon" />
+                        <h6 className="project-link-text">Site</h6>
+                    </div>
+                </a>
             </div>
         </div>
     )

@@ -82,7 +82,7 @@ position: absolute;
 
 /* ----------------- Project Page -----------------  */
 
-.project-image-title {
+.project-image-title-container {
     display: grid;
     margin-left: 25%;
     margin-right: 25%;
@@ -90,10 +90,10 @@ position: absolute;
     background-color: lightblue;
 }
 
-.project-images-size {
-    max-width: 500px;
+/* .project-images-size {
+    max-width: 700px;
     margin: auto;
-}
+} */
 
 .project-title {
     margin: auto;
@@ -168,4 +168,26 @@ position: absolute;
 }
 
 
+/* ----------------- Slideshow Component -----------------  */
+
+#slideshow-container {
+    display: flex;
+    flex-flow: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* width: 100%; */
+    /* z-index: 0; */
+  }
+  
+  #slideshow-image-container {
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .slideshow-image {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  
 /* ----------------- Experience Page -----------------  */
