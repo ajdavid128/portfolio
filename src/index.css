@@ -82,9 +82,21 @@ position: absolute;
 
 /* ----------------- Project Page -----------------  */
 
+.project-image-title {
+    display: grid;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    background-color: lightblue;
+}
+
 .project-images-size {
     max-width: 500px;
+    margin: auto;
+}
 
+.project-title {
+    margin: auto;
 }
 
 .project-details-container {

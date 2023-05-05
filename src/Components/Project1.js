@@ -6,8 +6,10 @@ function Project1() {
 
     return (
         <div>
-            <img className="project-images-size" src={landing_page} alt="flatstocker website landing page" />
-            <h1>FlatStocker</h1>
+            <div className="project-image-title">
+                <img className="project-images-size" src={landing_page} alt="flatstocker website landing page" />
+                <h1 className="project-title">FlatStocker</h1>
+            </div>
             <div className="project-details-container">
                 <div className="description-container">
                     <h3>Description</h3>
