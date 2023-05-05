@@ -58,55 +58,67 @@
 }
 
 .video-responsive {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
-  }
-  
-  .video-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-  }
+overflow: hidden;
+padding-bottom: 56.25%;
+position: relative;
+height: 0;
+}
+
+.video-responsive iframe {
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+position: absolute;
+}
 
 
-  /* ----------------- Contact Page -----------------  */
-
-
-
+/* ----------------- Contact Page -----------------  */
 
 
 
-  /* ----------------- Project Page -----------------  */
-
-    .project-images-size {
-        max-width: 500px;
-    }
-
-    .project-details-container {
-        display: grid;
-        height: 100%;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 20px;
-        /* grid-template-areas: ; */
-        margin-left: 10%;
-        margin-right: 10%;
-        background-color: blue;
-    }
-
-    .project-links{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
-        max-width: fit-content;
-        margin: auto;
-        /* margin-left: 25%;
-        margin-right: 25%; */
-        background-color: grey;
-    }
 
 
-  /* ----------------- Experience Page -----------------  */
+
+/* ----------------- Project Page -----------------  */
+
+.project-images-size {
+    max-width: 500px;
+
+}
+
+.project-details-container {
+    display: grid;
+    /* height: 100%; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* background-color: blue; */
+}
+
+.description-container {
+    background-color: aquamarine;
+}
+
+.features-container {
+    background-color: blanchedalmond;
+}
+
+.technology-container {
+    background-color: darksalmon;
+}
+
+.project-links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: fit-content;
+    margin: auto;
+    /* margin-left: 25%;
+    margin-right: 25%; */
+    background-color: grey;
+}
+
+
+/* ----------------- Experience Page -----------------  */

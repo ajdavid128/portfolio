@@ -8,12 +8,12 @@ function Project1() {
         <div>
             <img className="project-images-size" src={landing_page} alt="flatstocker website landing page" />
             <h1>FlatStocker</h1>
-            <div classname="project-details-container">
-                <div>
+            <div className="project-details-container">
+                <div className="description-container">
                     <h3>Description</h3>
                     <p>FlatStocker is a full-stack inventory management web application inspired by my past profession as a Production Manager at a textile manufacturing company. Created as my capston project during the last phase of Flatiron School's Software Engineering Bootcamp.</p>
                 </div>
-                <div>
+                <div className="features-container">
                     <h3>Features</h3>
                     <ul>
                         <li> Create an account, log in/out, and update or delete account</li>
@@ -24,7 +24,7 @@ function Project1() {
                         <li>Searchable inventory listings</li>
                     </ul>
                 </div>
-                <div>
+                <div className="technology-container">
                     <h3>Technology</h3>
                     <p>JavaScript | React | Ruby on Rails | PostgreSQL | Semantic UI | React Router</p>
                 </div>
@@ -37,6 +37,10 @@ function Project1() {
                 <div onClick="">
                     <img src="" alt="" />
                     <h6>Demo</h6>
+                </div>
+                <div onClick="">
+                    <img src="" alt="" />
+                    <h6>Site</h6>
                 </div>
             </div>
         </div>
