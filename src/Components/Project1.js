@@ -1,4 +1,7 @@
-import landing_page from "../Media/flatstocker/landing_page.png"
+import landing_page from "../Media/flatstocker/landing_page.png";
+import github from "../Media/icons/github.png";
+import link from "../Media/icons/link.png";
+import youtube from "../Media/icons/youtube.png"
 
 
 function Project1() {
@@ -31,18 +34,18 @@ function Project1() {
                     <p className="project-details-content">JavaScript | React | Ruby on Rails | PostgreSQL | Semantic UI | React Router</p>
                 </div>
             </div>
-            <div className="project-links">
-                <div onClick="">
-                    <img src="" alt="" />
-                    <h6>GitHub</h6>
+            <div className="project-links-container">
+                <div className="project-links" onClick="">
+                    <img className="project-icons" src={github} alt="github logo" />
+                    <h6 className="project-link-text">GitHub</h6>
                 </div>
-                <div onClick="">
-                    <img src="" alt="" />
-                    <h6>Demo</h6>
+                <div className="project-links" onClick="">
+                    <img className="project-icons" src={youtube} alt="youtube logo" />
+                    <h6 className="project-link-text">Demo</h6>
                 </div>
-                <div onClick="">
-                    <img src="" alt="" />
-                    <h6>Site</h6>
+                <div className="project-links" onClick="">
+                    <img className="project-icons" src={link} alt="chainlink icon" />
+                    <h6 className="project-link-text">Site</h6>
                 </div>
             </div>
         </div>
