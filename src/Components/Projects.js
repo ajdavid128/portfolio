@@ -31,12 +31,3 @@ function Projects() {
 }
 
 export default Projects;
-
-{/* <Link to="/about">About</Link>
-            <br/>
-            <Link to="/contact">Contact</Link>
-            <br/>
-            <Link to="/experience">Experience</Link>
-            <br/>
-            <Link to="/projects">Projects</Link>
-            <Outlet /> */}
