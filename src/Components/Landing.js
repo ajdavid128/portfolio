@@ -1,5 +1,7 @@
 import me1 from "../Media/me1.png";
 import { Icon } from "semantic-ui-react"
+import { Outlet, Link } from "react-router-dom";
+
 
 
 function Landing() {
@@ -13,15 +15,17 @@ function Landing() {
                     <h3 className="center">Hey, my name is Aaron David and welcome to my site!</h3>
                 </div>
             </div>
-            <div className="nav-left-arrow">
+            {/* <div className="nav-left-arrow">
                 <Icon link  name="caret left" size="big"/>
-            </div>
+            </div> */}
             <div className="nav-down-arrow">
-                <Icon link  name="caret down" size="big"/>
+                <Link to="/about"> About
+                    <Icon link  name="caret down" size="big"/>
+                </Link>
             </div>
-            <div className="nav-right-arrow">
+            {/* <div className="nav-right-arrow">
                 <Icon link  name="caret right" size="big"/>
-            </div>
+            </div> */}
         </>
     )
 }
