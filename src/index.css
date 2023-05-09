@@ -1,15 +1,23 @@
 /* ----------------- Nav Related -----------------  */
 
-.nav-arrow-left {
-
+.nav-left-arrow {
+    position: fixed;
+    bottom: 50%;
+    max-width: fit-content;
 }
 
-.nav-arrow-down {
-    
+.nav-down-arrow {
+    position: fixed;
+    bottom: 0;
+    right: 50%;
+    max-width: fit-content;
 }
 
-.nav-arrow-right {
-    
+.nav-right-arrow {
+    position: fixed;
+    bottom: 50%;
+    right: 0;
+    max-width: fit-content;
 }
 
 /* ----------------- Landing Page -----------------  */

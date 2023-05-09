@@ -13,9 +13,15 @@ function Landing() {
                     <h3 className="center">Hey, my name is Aaron David and welcome to my site!</h3>
                 </div>
             </div>
-            <Icon link className="nav-left-arrow" name="caret left" size="big"/>
-            <Icon link className="nav-down-arrow" name="caret down" size="big"/>
-            <Icon link className="nav-right-arrow" name="caret right" size="big"/>
+            <div className="nav-left-arrow">
+                <Icon link  name="caret left" size="big"/>
+            </div>
+            <div className="nav-down-arrow">
+            <Icon link  name="caret down" size="big"/>
+            </div>
+            <div className="nav-right-arrow">
+                <Icon link  name="caret right" size="big"/>
+            </div>
         </>
     )
 }

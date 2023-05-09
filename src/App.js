@@ -7,6 +7,7 @@ import Experience from "./Components/Experience";
 import Contact from "./Components/Contact";
 import NoPage from "./Components/NoPage";
 import Nav from "./Components/Nav";
+import NavArrows from "./Components/NavArrows";
 
 
 function App() {
