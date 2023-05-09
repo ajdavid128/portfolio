@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Icon } from "semantic-ui-react";
+import { Outlet, Link } from "react-router-dom";
 
 import EmbedVideo from "./EmbedVideo";
 import BWme from "../Media/BWme.jpg";
@@ -36,16 +37,23 @@ function About() {
             </div>
             }
             <div className="nav-left-arrow">
-                <Icon link  name="caret left" size="big"/>
+                <Link to="/experience">
+                    <Icon link  name="caret left" size="big"/>
+                </Link>
             </div>
             <div className="nav-down-arrow">
-                <Icon link  name="caret down" size="big"/>
+                <Link to="/contact">
+                    <Icon link  name="caret down" size="big"/>
+                </Link>
             </div>
             <div className="nav-right-arrow">
-                <Icon link  name="caret right" size="big"/>
+                <Link to="/projects">
+                    <Icon link  name="caret right" size="big"/>
+                </Link>
             </div>
         </div>
     )
 };
 
 export default About;
+
