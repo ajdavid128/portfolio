@@ -1,6 +1,5 @@
 import Project2Slideshow from "./Project1Slideshow";
 
-// import landing_page from "../Media/flatstocker/landing_page.png";
 import github from "../Media/icons/github.png";
 import link from "../Media/icons/link.png";
 import youtube from "../Media/icons/youtube.png";
@@ -15,7 +14,6 @@ function Project2() {
         <div>
             <div className="project-image-title-container">
                 <Project2Slideshow />
-                {/* <img className="project-images-size" src={landing_page} alt="flatstocker website landing page" /> */}
                 <div className="project-arrow-title-container">
                     <img onClick="" className="arrow-icon" src={left_arrow} alt="left arrow" />
                     <h1 className="project-title">Dough</h1>
@@ -43,7 +41,7 @@ function Project2() {
                 </div>
             </div>
             <div className="project-links-container">
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/lindzht/dough" target="_blank" rel="noopener noreferrer">
                     <div className="project-links" onClick="">
                         <img className="project-icons" src={github} alt="github logo" />
                         <h6 className="project-link-text">GitHub</h6>
