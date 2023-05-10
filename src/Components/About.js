@@ -43,8 +43,15 @@ function About() {
                 </Link>
             </div>
             <div className="nav-down-arrow">
-                <Link to="/contact"> Contact
-                    <Icon link  name="caret down" size="big"/>
+                <Link to="/contact"> 
+                <div id="test">
+                    <div>
+                        <p>Contact</p>
+                    </div>
+                    <div>
+                        <Icon link  name="caret down" size="big"/>
+                    </div>
+                </div>
                 </Link>
             </div>
             <div className="nav-right-arrow">
