@@ -10,7 +10,7 @@
     position: fixed;
     bottom: 0;
     right: 48%;
-    /* max-width: fit-content; */
+    max-width: fit-content;
 }
 
 .nav-right-arrow {
@@ -20,11 +20,13 @@
     max-width: fit-content;
 }
 
-/* #test {
+/* use the test below as an example of how to center the icon within the div - thi sis on the about page */
+#test {
     display: grid;
-    place-content: center;
-    
-} */
+}
+#test2 {
+margin: auto;
+}
 
 #bounce2:hover {
     animation: bounce2 2s ease infinite;

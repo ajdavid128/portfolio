@@ -48,7 +48,7 @@ function About() {
                     <div>
                         <p>Contact</p>
                     </div>
-                    <div>
+                    <div id="test2">
                         <Icon link  name="caret down" size="big"/>
                     </div>
                 </div>
