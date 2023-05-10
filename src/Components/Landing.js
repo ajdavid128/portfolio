@@ -18,7 +18,7 @@ function Landing() {
             {/* <div className="nav-left-arrow">
                 <Icon link  name="caret left" size="big"/>
             </div> */}
-            <div className="nav-down-arrow">
+            <div id="bounce2" className="nav-down-arrow">
                 <Link to="/about"> About
                     <Icon link  name="caret down" size="big"/>
                 </Link>
