@@ -19,7 +19,8 @@ function Landing() {
                 <Icon link  name="caret left" size="big"/>
             </div> */}
             <div id="bounce2" className="nav-down-arrow">
-                <Link to="/about"> About
+                <Link to="/about"> 
+                    <p>About</p>
                     <Icon link  name="caret down" size="big"/>
                 </Link>
             </div>
