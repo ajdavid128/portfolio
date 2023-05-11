@@ -8,7 +8,14 @@ function Experience() {
             <h1>Experience</h1>
             <div className="nav-left-arrow">
                 <Link to="/projects">
-                    <Icon link  name="caret left" size="big"/>
+                    <div className="center-side-arrow-parent">
+                        <div>
+                            <Icon link  name="caret left" size="big"/>
+                        </div>
+                        <div>
+                            <p>Projects</p>
+                        </div>
+                    </div>
                 </Link>
             </div>
             <div className="nav-down-arrow">
@@ -25,7 +32,14 @@ function Experience() {
             </div>
             <div className="nav-right-arrow">
                 <Link to="/about">
-                    <Icon link  name="caret right" size="big"/>
+                    <div className="center-side-arrow-parent">
+                        <div>
+                            <p>About</p>
+                        </div>
+                        <div>
+                            <Icon link  name="caret right" size="big"/>
+                        </div>
+                    </div> 
                 </Link>
             </div>
         </>
