@@ -13,7 +13,14 @@ function Experience() {
             </div>
             <div className="nav-down-arrow">
                 <Link to="/contact">
-                    <Icon link  name="caret down" size="big"/>
+                    <div className="center-nav-arrow-parent">
+                        <div>
+                            <p>Contact</p>
+                        </div>
+                        <div className="center-nav-arrow-icon">
+                            <Icon link  name="caret down" size="big"/>
+                        </div>
+                    </div>
                 </Link>
             </div>
             <div className="nav-right-arrow">

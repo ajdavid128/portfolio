@@ -13,14 +13,14 @@ function Contact() {
             </div>
             <div className="nav-down-arrow">
                 <Link to="/about">
-                <div className="center-nav-arrow-parent">
-                    <div>
-                        <p>About</p>
+                    <div className="center-nav-arrow-parent">
+                        <div>
+                            <p>About</p>
+                        </div>
+                        <div className="center-nav-arrow-icon">
+                            <Icon link  name="caret down" size="big"/>
+                        </div>
                     </div>
-                    <div className="center-nav-arrow-icon">
-                        <Icon link  name="caret down" size="big"/>
-                    </div>
-                </div>
                 </Link>
             </div>
             <div className="nav-right-arrow">
