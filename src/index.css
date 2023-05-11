@@ -20,7 +20,7 @@
     max-width: fit-content;
 }
 
-/* use the test below as an example of how to center the icon within the div - thi sis on the about page */
+/* these are centering the text/icon for nav*/
 .center-nav-arrow-parent {
     display: grid;
 }
