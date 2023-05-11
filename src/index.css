@@ -29,30 +29,30 @@ margin: auto;
 }
 
 .nav-down-arrow:hover {
-    animation: bounce2 2s ease infinite;
+    animation: bounceDown 2s ease infinite;
   }
-  @keyframes bounce2 {
+  @keyframes bounceDown {
       0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
       40% {transform: translateY(-30px);}
       60% {transform: translateY(-15px);}
   }
 
 .nav-right-arrow:hover {
-    animation: bounce2 2s ease infinite;
+    animation: bounceRight 2s ease infinite;
 }
-@keyframes bounce2 {
-    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-    40% {transform: translateY(-30px);}
-    60% {transform: translateY(-15px);}
+@keyframes bounceRight {
+    0%, 20%, 50%, 80%, 100% {transform: translateX(0);}
+    40% {transform: translateX(-30px);}
+    60% {transform: translateX(-15px);}
 }
 
 .nav-left-arrow:hover {
-    animation: bounce2 2s ease infinite;
+    animation: bounceLeft 2s ease infinite;
 }
-@keyframes bounce2 {
-    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-    40% {transform: translateY(-30px);}
-    60% {transform: translateY(-15px);}
+@keyframes bounceLeft {
+    0%, 20%, 50%, 80%, 100% {transform: translateX(0);}
+    40% {transform: translateX(30px);}
+    60% {transform: translateX(15px);}
 }
 
 
