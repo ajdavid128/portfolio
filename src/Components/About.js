@@ -38,8 +38,14 @@ function About() {
             }
             <div className="nav-left-arrow">
                 <Link to="/experience"> 
-                    <Icon link  name="caret left" size="big"/>
-                    Experience
+                <div className="center-side-arrow-parent">
+                    <div>
+                        <Icon link  name="caret left" size="big"/>
+                    </div>
+                    <div>
+                        <p>Experience</p>
+                    </div>
+                </div>
                 </Link>
             </div>
             <div className="nav-down-arrow">
@@ -55,8 +61,15 @@ function About() {
                 </Link>
             </div>
             <div className="nav-right-arrow">
-                <Link to="/projects"> Projects
-                    <Icon link  name="caret right" size="big"/>
+                <Link to="/projects"> 
+                <div className="center-side-arrow-parent">
+                    <div>
+                        <p>Projects</p>
+                    </div>
+                    <div>
+                        <Icon link  name="caret right" size="big"/>
+                    </div>
+                </div>    
                 </Link>
             </div>
         </div>

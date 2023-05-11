@@ -21,6 +21,12 @@
 }
 
 /* these are centering the text/icon for nav*/
+.center-side-arrow-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .center-nav-arrow-parent {
     display: grid;
 }
