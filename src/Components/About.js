@@ -62,14 +62,14 @@ function About() {
             </div>
             <div className="nav-right-arrow">
                 <Link to="/projects"> 
-                <div className="center-side-arrow-parent">
-                    <div>
-                        <p>Projects</p>
-                    </div>
-                    <div>
-                        <Icon link  name="caret right" size="big"/>
-                    </div>
-                </div>    
+                    <div className="center-side-arrow-parent">
+                        <div>
+                            <p>Projects</p>
+                        </div>
+                        <div>
+                            <Icon link  name="caret right" size="big"/>
+                        </div>
+                    </div>    
                 </Link>
             </div>
         </div>

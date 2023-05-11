@@ -8,7 +8,14 @@ function Contact() {
             <h1>Contact</h1>
             <div className="nav-left-arrow">
                 <Link to="/experience">
-                    <Icon link  name="caret left" size="big"/>
+                    <div className="center-side-arrow-parent">
+                        <div>
+                            <Icon link  name="caret left" size="big"/>
+                        </div>
+                        <div>
+                            <p>Experience</p>
+                        </div>
+                    </div>
                 </Link>
             </div>
             <div className="nav-down-arrow">
@@ -25,7 +32,14 @@ function Contact() {
             </div>
             <div className="nav-right-arrow">
                 <Link to="/projects">
-                    <Icon link  name="caret right" size="big"/>
+                    <div className="center-side-arrow-parent">
+                        <div>
+                            <p>Projects</p>
+                        </div>
+                        <div>
+                            <Icon link  name="caret right" size="big"/>
+                        </div>
+                    </div> 
                 </Link>
             </div>
         </>
