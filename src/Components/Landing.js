@@ -18,12 +18,16 @@ function Landing() {
             {/* <div className="nav-left-arrow">
                 <Icon link  name="caret left" size="big"/>
             </div> */}
-            <div id="bounce2" className="nav-down-arrow">
+            <div className="nav-down-arrow">
                 <Link to="/about"> 
-                <div>
-                    <p>About</p>
+                <div className="center-nav-arrow-parent">
+                    <div>
+                        <p>About</p>
+                    </div>
+                    <div className="center-nav-arrow-icon">
+                        <Icon link  name="caret down" size="big"/>
+                    </div>
                 </div>
-                    <Icon link  name="caret down" size="big"/>
                 </Link>
             </div>
             {/* <div className="nav-right-arrow">

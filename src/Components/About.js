@@ -44,11 +44,11 @@ function About() {
             </div>
             <div className="nav-down-arrow">
                 <Link to="/contact"> 
-                <div id="test">
+                <div className="center-nav-arrow-parent">
                     <div>
                         <p>Contact</p>
                     </div>
-                    <div id="test2">
+                    <div className="center-nav-arrow-icon">
                         <Icon link  name="caret down" size="big"/>
                     </div>
                 </div>
