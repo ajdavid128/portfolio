@@ -13,7 +13,14 @@ function Projects() {
             <Project2 />
             <div className="nav-left-arrow">
                 <Link to="/about">
-                    <Icon link  name="caret left" size="big"/>
+                <div className="center-side-arrow-parent">
+                    <div>
+                        <Icon link  name="caret left" size="big"/>
+                    </div>
+                    <div>
+                        <p>About</p>
+                    </div>
+                </div>
                 </Link>
             </div>
             <div className="nav-down-arrow">
@@ -30,7 +37,14 @@ function Projects() {
             </div>
             <div className="nav-right-arrow">
                 <Link to="/experience">
-                    <Icon link  name="caret right" size="big"/>
+                <div className="center-side-arrow-parent">
+                    <div>
+                        <p>Experience</p>
+                    </div>
+                    <div>
+                        <Icon link  name="caret right" size="big"/>
+                    </div>
+                </div>  
                 </Link>
             </div>
         </div>
