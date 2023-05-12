@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Icon, Container } from "semantic-ui-react";
+import { Icon, Modal, Button } from "semantic-ui-react";
 import { Outlet, Link } from "react-router-dom";
 
 import EmbedVideo from "./EmbedVideo";
@@ -9,15 +9,17 @@ import BWme from "../Media/BWme.jpg";
 function About() {
 
     const [toggleVideo, setToggleVideo] = useState(false)
+    const [modalOpen, setModalOpen] = useState(false)
 
     const showVideo = () => {
         setToggleVideo(!toggleVideo);
     }
+    const str = "Introduction"
 
     return (
         <div id="about-page-container">
             <h1>About: The History of Cool Beans</h1>
-            {toggleVideo ? 
+            {/* {toggleVideo ? 
             <div id="video-parent-container">
                 <div>
                     <EmbedVideo embedId="PyHPSrk18d4" />
@@ -27,7 +29,7 @@ function About() {
                 </div>
             </div>
             
-            :
+            : */}
             <div id="about-text-photo">
                 <div>
                     <img id="about-photo" src={BWme} alt="Aaron David portrait"/>
@@ -36,10 +38,26 @@ function About() {
                     <p> I am a Full-Stack Software Engineer with programming experience centered around React.js and Ruby on Rails based web-development. My bachelor's degree is in Fine Art and I have professional experience in textile manufacturing. I am well versed in team leadership, production and project management, process optimization, organization and delegation. As a highly motivated, multi-tasking individual that thrives when confronted with a problem in need of a solution I am quick to learn, can appreciate a challenge and I excel in a hands-on work environment that encourages creativity. I pride myself on my patience, ability to communicate clearly and concisely, and strive to bring teams together to achieve mutual goals.</p>
                 </div>
                 <div>
-                    <button onClick={showVideo} id="box3">click me</button>
+                    <Modal basic
+                        onClose={() => setModalOpen(false)}
+                        onOpen={() => setModalOpen(true)}
+                        open={modalOpen}
+                        trigger={<h4>Introduction Video</h4>} 
+                    >
+                        <Modal.Header>Inntroduction Video</Modal.Header>
+                        <Modal.Content>
+                            <EmbedVideo embedId="PyHPSrk18d4" />
+                        </Modal.Content>
+                        <Modal.Actions>
+                            <Button color='black' onClick={() => setModalOpen(false)}>
+                                Close Video
+                            </Button>
+                        </Modal.Actions>
+                    </Modal>
+                    {/* <button onClick={showVideo} id="box3">click me</button> */}
                 </div>
             </div>
-            }
+            {/* } */}
             <div className="nav-left-arrow">
                 <Link to="/experience"> 
                 <div className="center-side-arrow-parent">
