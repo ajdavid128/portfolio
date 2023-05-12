@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Icon } from "semantic-ui-react";
+import { Icon, Container } from "semantic-ui-react";
 import { Outlet, Link } from "react-router-dom";
 
 import EmbedVideo from "./EmbedVideo";
@@ -18,9 +18,13 @@ function About() {
         <div id="about-page-container">
             <h1>About: The History of Cool Beans</h1>
             {toggleVideo ? 
-            <div id="video-container">
-                <EmbedVideo embedId="PyHPSrk18d4" />
-                <button onClick={showVideo}>click me</button>
+            <div id="video-parent-container">
+                <div>
+                    <EmbedVideo embedId="PyHPSrk18d4" />
+                </div>
+                <div className="video-child-container">
+                    <h4 onClick={showVideo} id="video-toggle-text">Back to Bio</h4>
+                </div>
             </div>
             
             :

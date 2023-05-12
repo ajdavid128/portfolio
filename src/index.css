@@ -116,14 +116,20 @@ margin: auto;
 
 #about-text {
     background-color: blue;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
 }
 
 
-#video-container {
+#video-parent-container {
  max-width: 800px;
  margin: auto;
+}
+
+.video-child-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .video-responsive {
@@ -141,6 +147,9 @@ width: 100%;
 position: absolute;
 }
 
+#video-toggle-text {
+
+}
 
 /* ----------------- Contact Page -----------------  */
 
