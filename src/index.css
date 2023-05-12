@@ -65,7 +65,11 @@ margin: auto;
 /* ----------------- Landing Page -----------------  */
 
 #landing-content {
-
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
 }
 
 #landing-img {
@@ -74,15 +78,16 @@ margin: auto;
 
 #landing-photo {
     margin:auto;
-    max-width: 30%;
+    max-width: 60%;
 }
 
-#landing-text {
+#landing-text-container {
     display:flex;
     margin-top: 20px;
 }
 
-.center {
+#landing-text {
+    text-align: center;
     margin:auto;
 }
 

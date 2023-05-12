@@ -11,8 +11,8 @@ function Landing() {
                 <div id="landing-img">
                     <img id="landing-photo" src={me1} alt="Aaron David portrait"/>
                 </div>
-                <div id="landing-text">
-                    <h3 className="center">Hey, my name is Aaron David and welcome to my site!</h3>
+                <div id="landing-text-container">
+                    <h3 id="landing-text">Hey, my name is Aaron David and welcome to my site!</h3>
                 </div>
             </div>
             {/* <div className="nav-left-arrow">
